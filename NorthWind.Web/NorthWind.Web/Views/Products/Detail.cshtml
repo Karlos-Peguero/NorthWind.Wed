@@ -1,2 +1,35 @@
-﻿
+﻿@model NorthWind.Web.Models.Product
+@{
+    ViewData["Title"] = "Detail";
+}
+
+
+<div class="d-flex justify-content-between">
+    <h1>Product Detail -Product #@Model.ProductId </h1>
+
+    <div>
+        <a asp-action="Index" class="btn btn-danger">Cancel</a>
+
+        <a asp-action="Edit" asp-route-id="@Model.ProductId" class="btn btn-primary">Edit</a>
+    </div>
+</div>
+
+<div>
+    <dl>
+        <dt>Product name</dt>
+        <dd>@Model.ProductName</dd>
+
+        <dt>Category</dt>
+        <dd>@(Model?.Category?.CategoryName ?? "-")</dd>
+
+        <dt>Supplier</dt>
+        <dd>@(Model?.Supplier?.CompanyName ?? "-")</dd>
+
+        <dt>Unit Price</dt>
+        <dd>@Model?.UnitPrice?.ToString("N2")</dd>
+
+    </dl>
+</div>
+
+
 
