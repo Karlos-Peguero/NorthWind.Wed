@@ -10729,11 +10729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kingk\\source\\repos\\NorthWind.Web\\NorthWind.Web\\NorthWind.Web.csproj",
+      "projectUniqueName": "C:\\Users\\kingk\\OneDrive\\Escritorio\\NorthWind.Web\\NorthWind.Wed\\NorthWind.Web\\NorthWind.Web\\NorthWind.Web.csproj",
       "projectName": "NorthWind.Web",
-      "projectPath": "C:\\Users\\kingk\\source\\repos\\NorthWind.Web\\NorthWind.Web\\NorthWind.Web.csproj",
+      "projectPath": "C:\\Users\\kingk\\OneDrive\\Escritorio\\NorthWind.Web\\NorthWind.Wed\\NorthWind.Web\\NorthWind.Web\\NorthWind.Web.csproj",
       "packagesPath": "C:\\Users\\kingk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kingk\\source\\repos\\NorthWind.Web\\NorthWind.Web\\obj\\",
+      "outputPath": "C:\\Users\\kingk\\OneDrive\\Escritorio\\NorthWind.Web\\NorthWind.Wed\\NorthWind.Web\\NorthWind.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kingk\\AppData\\Roaming\\NuGet\\NuGet.Config",

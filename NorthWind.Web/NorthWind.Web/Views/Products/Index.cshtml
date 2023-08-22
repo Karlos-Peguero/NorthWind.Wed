@@ -33,7 +33,11 @@
             <tr>
                 <td>@item.ProductName</td>
                 <td class="td-number">@item.UnitPrice?.ToString("N2")</td>
-
+                <td class="td-actions">
+                    <a asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-outline-info btn-sm">Edit</a>
+                    <a asp-action="Detail" asp-route-id="@item.ProductId" class="btn btn-outline-primary btn-sm">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.ProductId" class="btn btn-outline-danger btn-sm">Delete</a>
+                </td>
             </tr>
         }
     </tbody>
