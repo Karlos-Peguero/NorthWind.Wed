@@ -1,0 +1,45 @@
+﻿@model List<NorthWind.Web.Models.Product>
+@{
+    ViewData["Title"] = "Product List";
+}
+
+
+@*<a href="@Url.Action("Create","Products",new{id= 1, name="pep"})">New Product</a>*@
+
+<div class="d-flex justify-content-between">
+    <h1>Products</h1>
+    <div>
+        <a asp-action="Create" class="btn btn-primary">New Product</a> 
+    </div>
+
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product Name: </th>
+            <th class="td-number">Unit Price: </th>
+            <td class="td-actions">
+            </td>
+        </tr>  
+    </thead>
+    
+
+  
+    
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td class="td-number">@item.UnitPrice?.ToString("N2")</td>
+
+            </tr>
+        }
+    </tbody>
+    
+</table>
+
+@section Styles{
+    <link href="/css/products/index.css" rel="stylesheet"/>
+}

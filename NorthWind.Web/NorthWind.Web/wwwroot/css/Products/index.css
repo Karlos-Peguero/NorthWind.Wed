@@ -1,0 +1,10 @@
+﻿.td-number {
+    text-align: right;
+    font-weight: bold;
+    width: 200px;
+}
+
+.td-actions {
+    width: 210px;
+    text-align: right;
+}
